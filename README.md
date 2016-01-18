@@ -8,7 +8,7 @@ to start learning about genome assembly. Basic knowledge of the Linux command li
 
 In whole genome sequencing (WGS) researchers are usually interested in the original genomic sequence of their sample. However, due to fragmentation of the genome during the preparation of the DNA sequencing library the order of the individual fragments is lost. Thus, the sequenced fragments (reads) need to be correctly stitched back together into their original configuration, a process called genome assembly.
 
-This tutorial explains two main approaches to genome assembly: 1) The alignment (or mapping) of reads to a reference sequence and 2) the reconstruction of the genomic sequence without a reference (de-novo assembly).
+This tutorial explains the two main approaches to genome assembly: 1) The alignment (or mapping) of reads to a reference sequence and 2) the reconstruction of the genomic sequence without a reference (de-novo assembly).
 
 ##### Example
 A researcher observes a known bacterial strain with an unusual phenotype. He/she would like to sequence the genome to identify the responsible genetic change. Genome assembly using reference alignment would allow for the identification of small alterations in the sequence such as single nucleotide polymorphisms (SNPs), insertions or deletions. However, larger alterations such as duplication events that are not in our reference sequence would be lost. A better approach for detecting these kinds of new structural variations is de-novo assembly. This method requires no prior knowledge of the original sequence but instead attempts to reconstruct the genome from the reads only. Both alignment and assembly have their pros and cons and they often go hand-in-hand during genome analysis.
