@@ -9,7 +9,5 @@ fragments that can be analysed by the sequencer. During this step, however, posi
 Thus, an essential step in whole-genome sequencing (WGS) is to assemble the sequenced fragments (also called reads) back into
 their original order as accurately as possible.
 
-```
-Structural variations include inversions, translocations as well as copy number variations (CNVs), i.e. deletions and
-insertions of size 1kb or larger.
-```
+**`Structural variations`**```include inversions, translocations as well as copy number variations (CNVs), i.e. deletions and
+insertions of size 1kb or larger.```
