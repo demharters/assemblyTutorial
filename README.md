@@ -25,6 +25,7 @@ Provide ..
 3. [*De-novo* assembly - workflow example](https://github.com/demharters/assemblyTutorial/blob/master/deNovoAssembly.md)
 
 ##### Further reading:
+- [De novo genome assembly versus mapping to a reference genome](beat.wolf.home.hefr.ch/documents/prague.pdf)
 - [Beginner’s guide to comparative bacterial genome analysis using next-generation sequence data.](http://microbialinformaticsj.biomedcentral.com/articles/10.1186/2042-5783-3-2)
 - Great tutorial on next-gen sequencing genome analysis using [samtools](http://biobits.org/samtools_primer.html) (also covers SNP detection).
 - [Celera (Canu) Assembler Terminology](http://wgs-assembler.sourceforge.net/wiki/index.php/Celera_Assembler_Terminology) (some of it is irrelevant to nanoporer reads e.g. mate-pairs).
