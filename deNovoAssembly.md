@@ -36,7 +36,7 @@ Due to the relatively high noise of Nanopore data, error correction is essential
 In this case MHAP is used as an efficient way to find overlapping reads while the FalconSense algorithm [4] aligns and corrects the reads.
 
 ```
-For an alternative method for the correction of long noisy reads see [nanocorrect](http://www.github.com/jts/nanocorrect/).
+For an alternative method for the correction of long noisy reads see www.github.com/jts/nanocorrect/.
 ```
 
 ##### Stage 2: Trimming
