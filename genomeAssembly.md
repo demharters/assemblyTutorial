@@ -49,6 +49,7 @@ This allows for their correct placement in the assembly.
 
 Read accuracy may also be a potentially limiting factor to successful de novo assembly.  However, advancements in assemblers (e.g. hierarchical genome-assembly process (HGAP)) have allowed for the self-correction of reads, which makes highly contiguous assemblies possible. See the study by Loman et al. where a complete bacterial genome was assembled de novo with 99.5% nucleotide identity.
 
-##### Data Formats
-Once the sequencing run has finished, Metrichor will have returned all reads as individual fast5 files; a hierarchical data format (HDF5), adapted by Oxford Nanopore, that contains the basecalled 1D and 2D sequences as well as supplementary information such as (start and end indices of template/complement strands, median current levels in pA, number of events, quality scores etc.). For assembly we are only interested in the sequences (and possibly the quality scores). The most common formats for storing sequence and sequence with quality scores are fasta and fastq, respectively. An example of how to convert fast5 into these formats is shown in the exercise.
+### Further Reading:
+
+
 
