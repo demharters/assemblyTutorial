@@ -1,6 +1,6 @@
 # *De-novo* assembly with nanopore reads
 
-This document introduces a typical workflow for the de-novo assembly of Nanopore reads. Due to the unique characteristics of Nanopore reads and continued improvements in chemistry and software, new strategies for assembly are being developed continuously. Here, we will briefly describe one particular workflow that is based on a recently released package called Canu; a de-novo assembler specific for long noisy reads (Canu is derived from the Celera assembler).
+This document introduces a typical workflow for the *de-novo* assembly of Nanopore reads. Due to the unique characteristics of Nanopore reads and continued improvements in chemistry and software, new strategies for assembly are being developed continuously. Here, we will briefly describe one particular workflow that is based on a recently released package called Canu; a *de-novo* assembler specific for long noisy reads (Canu is derived from the Celera assembler).
 
 ```
 Several steps are required for the de-novo assembly of raw-sequencing data. Thus, a de-novo assembler
@@ -32,7 +32,7 @@ used at the trimming and unitigging stages.
 ```
 
 ##### Stage 1: Correction
-Due to the relatively high noise of Nanopore data, error correction is essential to ensure successful de-novo assembly. This step has previously been done with hybrid approaches that used accurate short reads to correct the low accuracy long reads. However, it has been shown that a set of long reads with a certain coverage may be sufficient for self-correction [3]. Canu for example identifies a set of target reads and uses overlapping reads from the entire data set for correction. 
+Due to the relatively high noise of Nanopore data, error correction is essential to ensure successful *de-novo* assembly. This step has previously been done with hybrid approaches that used accurate short reads to correct the low accuracy long reads. However, it has been shown that a set of long reads with a certain coverage may be sufficient for self-correction [3]. Canu for example identifies a set of target reads and uses overlapping reads from the entire data set for correction. 
 In this case MHAP is used as an efficient way to find overlapping reads while the FalconSense algorithm [4] aligns and corrects the reads.
 
 ```
