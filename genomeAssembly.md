@@ -49,7 +49,4 @@ This allows for their correct placement in the assembly.
 
 Read accuracy may also be a potentially limiting factor to successful de novo assembly.  However, advancements in assemblers (e.g. hierarchical genome-assembly process (HGAP)) have allowed for the self-correction of reads, which makes highly contiguous assemblies possible. See the study by Loman et al. where a complete bacterial genome was assembled de novo with 99.5% nucleotide identity.
 
-### Further Reading:
-
-
 
