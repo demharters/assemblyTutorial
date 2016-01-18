@@ -35,9 +35,9 @@ used at the trimming and unitigging stages.
 Due to the relatively high noise of Nanopore data, error correction is essential to ensure successful de-novo assembly. This step has previously been done with hybrid approaches that used accurate short reads to correct the low accuracy long reads. However, it has been shown that a set of long reads with a certain coverage may be sufficient for self-correction [3]. Canu for example identifies a set of target reads and uses overlapping reads from the entire data set for correction. 
 In this case MHAP is used as an efficient way to find overlapping reads while the FalconSense algorithm [4] aligns and corrects the reads.
 
-'''
+```
 For an alternative method for the correction of long noisy reads see [nanocorrect](http://www.github.com/jts/nanocorrect/).
-'''
+```
 
 ##### Stage 2: Trimming
 Once the reads have been corrected, the reads are cut into shape to remove any low quality sequence from the ends. The trimming stage selects the biggest segment for each corrected read so that the error, overlap and coverage are above selected thresholds.
@@ -54,7 +54,7 @@ Software requirements:
 	Java SE 8+
 	GCC 4.5+
 
-The default command for running canu is:
+The default command for running canu with nanopore reads is (assuming that you have already extracted your fasta files from the fast5 files using e.g. poretools. See the [alignment tutorial](https://github.com/demharters/assemblyTutorial/blob/master/alignment.md) for details.):
 
 ```
 canu -p ecoli -d ecoli-oxford genomeSize=4.8m -nanopore-raw oxford.fasta
