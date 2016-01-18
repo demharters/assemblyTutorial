@@ -9,5 +9,6 @@ fragments that can be analysed by the sequencer. During this step, however, posi
 Thus, an essential step in whole-genome sequencing (WGS) is to assemble the sequenced fragments (also called reads) back into
 their original order as accurately as possible.
 
-**`Structural variations`**```include inversions, translocations as well as copy number variations (CNVs), i.e. deletions and
-insertions of size 1kb or larger.```
+There are two main strategies for assembly: 1) map the reads to a reference sequence or 2) assemble the reads de novo, i.e. without a template. Both approaches have their strengths and weaknesses.
+
+Mapping is relatively fast but inherently biases the consensus towards the target sequence. De novo assembly is computationally expensive but is more suitable when it comes to detecting new structural variations. Thus, both methods are often used in a complementary fashion.
