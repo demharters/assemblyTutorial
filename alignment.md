@@ -23,6 +23,8 @@ Create the index files required for sequence comparison and alignment by running
 
 ```
 lastdb -Q 0 reference.lastindex reference.fasta
+```
+```
 -Q	input format: 0=fasta, 1=fastq
 ```
 
@@ -33,6 +35,8 @@ Align the extracted 2d reads to the reference sequence with the following comman
 
 ```
 lastal -s 2 -T 0 -Q 0 -a 1 reference.lastindex 2Dreads.fasta > 2Dreads_aligned.maf
+```
+```
 -s	0=reverse, 1=forward, 2=both
 -T	type of alignment: 0=local, 1=overlap
 -Q	input format: 0=fasta, 1=fastq
@@ -56,6 +60,8 @@ Compress .sam to .bam:
 
 ```
 samtools view -b -S -t reference.fasta.fai -o 2Dreads.bam 2Dreads.sam
+```
+```
 -b	output BAM
 -S	input SAM
 -t	reference index file
