@@ -9,6 +9,8 @@ Software requirements:
 - [samtools](http://www.htslib.org) (A suite of programs for interacting with HT sequencing data)
 - [Tablet](https://ics.hutton.ac.uk/tablet/) (Alignment/Assembly Viewer)
 
+For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
+
 ##### Step 1: Extract 2D reads as FASTQ
 Metrichor returns each of the basecalled reads as individual fast5 files. Use poretools to extract the 2D reads from the fast5 folder and store them in a single fasta file with the following command:
 
@@ -97,3 +99,5 @@ To find out more about the options of a programme (poretools, samtools, lastdb e
 
 ![Tablet alignment](https://github.com/demharters/assemblyTutorial/blob/master/figures/tablet.png)
 **Figure 1** An alignment of Nanopore reads of E.coli as viewed in Tablet.
+
+For assessing your assembly see [QUAST](http://bioinf.spbau.ru/quast).
