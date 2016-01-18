@@ -1,10 +1,5 @@
 # Genome assembly tutorial
 
-1. [Introduction](https://github.com/demharters/assemblyTutorial/blob/master/genomeAssembly.md)
-2. [Assembly by alignment - workflow example](https://github.com/demharters/assemblyTutorial/blob/master/alignment.md)
-3. [*De-novo* assembly - workflow example](https://github.com/demharters/assemblyTutorial/blob/master/deNovoAssembly.md)
-4. [Data formats](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md)
-
 ```
 This tutorial is aimed at researchers with little background in bioinformatics who would like
 to assemble their own sequence data. Basic knowledge of the Linux command line is required
@@ -24,6 +19,11 @@ Provide ..
    - a workflow for assembly by alignment 
    - a workflow for de-novo assembly
 
+##### Tutorial structure
+1. [Introduction](https://github.com/demharters/assemblyTutorial/blob/master/genomeAssembly.md)
+2. [Assembly by alignment - workflow example](https://github.com/demharters/assemblyTutorial/blob/master/alignment.md)
+3. [*De-novo* assembly - workflow example](https://github.com/demharters/assemblyTutorial/blob/master/deNovoAssembly.md)
+4. [Data formats](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md)
 
 ##### Further reading:
 - [Beginner’s guide to comparative bacterial genome analysis using next-generation sequence data.](http://microbialinformaticsj.biomedcentral.com/articles/10.1186/2042-5783-3-2)
