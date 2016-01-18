@@ -83,4 +83,5 @@ samtools index 2Dreads_aligned.sorted.bam
 - You should now be able to see your assembly.
 - To see the coverage, go to > Advanced > Coverage.
 
-
+![Tablet alignment](https://github.com/demharters/assemblyTutorial/blob/master/figures/tablet.png)
+**Figure 1** An alignment of Nanopore reads of E.coli as viewed in Tablet.
