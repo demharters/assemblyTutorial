@@ -19,7 +19,7 @@ Provide ..
    - a workflow for assembly by alignment 
    - a workflow for de-novo assembly
 
-##### Tutorial structure
+### Tutorial structure
 1. [Introduction](https://github.com/demharters/assemblyTutorial/blob/master/genomeAssembly.md)
 2. [Assembly by alignment - workflow example](https://github.com/demharters/assemblyTutorial/blob/master/alignment.md)
 3. [*De-novo* assembly - workflow example](https://github.com/demharters/assemblyTutorial/blob/master/deNovoAssembly.md)
