@@ -1,4 +1,4 @@
-# *De-novo* assembly of nanopore reads
+# *De-novo* assembly with nanopore reads
 
 This document introduces a typical workflow for the de-novo assembly of Nanopore reads. Due to the unique characteristics of Nanopore reads and continued improvements in chemistry and software, new strategies for assembly are being developed continuously. Here, we will briefly describe one particular workflow that is based on a recently released package called Canu; a de-novo assembler specific for long noisy reads (Canu is derived from the Celera assembler).
 
