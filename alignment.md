@@ -4,17 +4,10 @@ In this exercise we introduce a simple pipeline for the alignment of Nanopore se
 Important aspects such as quality control of the initial dataset and the usage of quality scores in the alignment are not covered. 
 
 Software requirements:
-- poretools (Toolkit for working with Nanopore data)
-- LAST (Alignment software for long reads)
-- samtools (A suite of programs for interacting with HT sequencing data)
-- Tablet (Alignment/Assembly Viewer)
-
-File formats:
-- fast5: Oxford Nanopore’s own version of the HDF5 format (hierarchical data format) used to store nanopore data.
-- FASTA: Header + Sequence
-- FASTQ: Header + Sequence + Quality score
-- SAM (Sequence Alignment/Map format): Header + Alignment
-- BAM: binary, compressed SAM data
+- [poretools](https://github.com/arq5x/poretools)(Toolkit for working with Nanopore data)
+- [LAST](http://last.cbrc.jp) (Alignment software for long reads)
+- [samtools](http://www.htslib.org) (A suite of programs for interacting with HT sequencing data)
+- [Tablet](https://ics.hutton.ac.uk/tablet/) (Alignment/Assembly Viewer)
 
 ##### Step 1: Extract 2D reads as FASTQ
 Metrichor returns each of the basecalled reads as individual fast5 files. Use poretools to extract the 2D reads from the fast5 folder and store them in a single fasta file with the following command:
