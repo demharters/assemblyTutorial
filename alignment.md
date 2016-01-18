@@ -1,4 +1,4 @@
-# Genome assembly by alignment/mapping to a reference
+# Genome assembly by alignment/mapping of nanopore reads to a reference
 
 In this exercise we introduce a simple pipeline for the alignment of Nanopore sequencing data to a known reference sequence. It is by no means a comprehensive guide but should be viewed as a resource for first time users.
 Important aspects such as quality control of the initial dataset and the usage of quality scores in the alignment are not covered. 
