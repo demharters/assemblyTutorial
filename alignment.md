@@ -4,7 +4,7 @@ In this exercise we introduce a simple pipeline for the alignment of Nanopore se
 Important aspects such as quality control of the initial dataset and the usage of quality scores in the alignment are not covered. 
 
 Software requirements:
-- [poretools](https://github.com/arq5x/poretools)(Toolkit for working with Nanopore data)
+- [poretools](https://github.com/arq5x/poretools) (Toolkit for working with Nanopore data)
 - [LAST](http://last.cbrc.jp) (Alignment software for long reads)
 - [samtools](http://www.htslib.org) (A suite of programs for interacting with HT sequencing data)
 - [Tablet](https://ics.hutton.ac.uk/tablet/) (Alignment/Assembly Viewer)
@@ -77,6 +77,12 @@ samtools sort 2Dreads_aligned.bam 2Dreads_aligned.sorted
 Index the sorted to alignment (required to view the alignment in tablet)
 ```
 samtools index 2Dreads_aligned.sorted.bam
+```
+
+
+To find out more about the options of a programme (poretools, samtools, lastdb etc.), type
+```
+[programme] --help
 ```
 
 ##### Step 5: Alignment Visualisation
