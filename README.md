@@ -2,11 +2,11 @@
 
 ```
 This tutorial is aimed at researchers with little background in bioinformatics who would like
-to assemble their own sequence data. Basic knowledge of the Linux command line is required
-(for an introduction see http://linuxcommand.org). 
+to start learning about genome assembly. Basic knowledge of the Linux command line is required
+(for an introduction see http://linuxcommand.org).
 ```
 
-In whole genome sequencing (WGS) researchers are interested in the original genomic sequence of their sample. However, due to fragmentation of the genome during the preparation of the DNA sequencing library the order of the individual fragments is lost. Thus, the sequenced fragments (reads) need to be correctly stitched back together into their original configuration, a process called genome assembly.
+In whole genome sequencing (WGS) researchers are usually interested in the original genomic sequence of their sample. However, due to fragmentation of the genome during the preparation of the DNA sequencing library the order of the individual fragments is lost. Thus, the sequenced fragments (reads) need to be correctly stitched back together into their original configuration, a process called genome assembly.
 
 This tutorial explains two main approaches to genome assembly: 1) The alignment (or mapping) of reads to a reference sequence and 2) the reconstruction of the genomic sequence without a reference (de-novo assembly).
 
@@ -23,6 +23,8 @@ Provide ..
 1. [Introduction](https://github.com/demharters/assemblyTutorial/blob/master/genomeAssembly.md)
 2. [Assembly by alignment - workflow example](https://github.com/demharters/assemblyTutorial/blob/master/alignment.md)
 3. [*De-novo* assembly - workflow example](https://github.com/demharters/assemblyTutorial/blob/master/deNovoAssembly.md)
+
+If you haven't got your own data you may use this [dataset](https://figshare.com/s/727c9aa81fc4073127d6) and this  [reference](https://figshare.com/s/f524cd2db2c1097726f3) sequence.
 
 ##### Further reading:
 - [De novo genome assembly versus mapping to a reference genome](beat.wolf.home.hefr.ch/documents/prague.pdf)
