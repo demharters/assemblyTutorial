@@ -27,7 +27,7 @@ Provide ..
 
 ##### Further reading:
 - [Beginner’s guide to comparative bacterial genome analysis using next-generation sequence data.](http://microbialinformaticsj.biomedcentral.com/articles/10.1186/2042-5783-3-2)
-- Great tutorial on next-gen sequencing genome analysis using [samtools]((http://biobits.org/samtools_primer.html) (also covers SNP detection).
+- Great tutorial on next-gen sequencing genome analysis using [samtools](http://biobits.org/samtools_primer.html) (also covers SNP detection).
 - [Celera (Canu) Assembler Terminology](http://wgs-assembler.sourceforge.net/wiki/index.php/Celera_Assembler_Terminology) (some of it is irrelevant to nanoporer reads e.g. mate-pairs).
 - [How to score genome assemblies](https://code.google.com/p/ngopt/wiki/How_To_Score_Genome_Assemblies_with_Mauve) with [Mauve](http://darlinglab.org/mauve/mauve.html)
 - [QUAST: quality assessment tool for genome assemblies](http://bioinformatics.oxfordjournals.org/content/29/8/1072.abstract)
