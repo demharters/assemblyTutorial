@@ -62,5 +62,5 @@ canu -p ecoli -d ecoli-oxford genomeSize=4.8m -nanopore-raw oxford.fasta
 
 This generates a set of files for each of the three stages (including html reports). Your consensus file will be stored in the current folder.
 
-- For assessing your assembly see e.g. [QUAST](http://bioinf.spbau.ru/quast).
+- For assessing your assembly see e.g. [QUAST](http://bioinf.spbau.ru/quast)
 - For annotating your assembly see e.g. [Patric](https://www.patricbrc.org/portal/portal/patric/Home)
