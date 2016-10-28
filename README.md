@@ -29,7 +29,7 @@ Provide ..
 If you haven't got your own data you may use this [dataset](https://figshare.com/s/727c9aa81fc4073127d6) and this  [reference](https://figshare.com/s/f524cd2db2c1097726f3) sequence.
 
 ### Further reading:
-- [De novo genome assembly versus mapping to a reference genome](beat.wolf.home.hefr.ch/documents/prague.pdf)
+- [De novo genome assembly versus mapping to a reference genome](http://beat.wolf.home.hefr.ch/documents/prague.pdf)
 - [Beginner’s guide to comparative bacterial genome analysis using next-generation sequence data.](http://microbialinformaticsj.biomedcentral.com/articles/10.1186/2042-5783-3-2)
 - Great tutorial on next-gen sequencing genome analysis using [samtools](http://biobits.org/samtools_primer.html) (also covers SNP detection).
 - [Celera (Canu) Assembler Terminology](http://wgs-assembler.sourceforge.net/wiki/index.php/Celera_Assembler_Terminology) (some of it is irrelevant to nanopore reads e.g. mate-pairs).
