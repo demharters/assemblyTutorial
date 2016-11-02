@@ -47,6 +47,6 @@ This allows for their correct placement in the assembly.
 ![alt text](https://github.com/demharters/assemblyTutorial/blob/master/figures/longvsshort.png)
 **Figure 2** Schematic highlighting the advantages of long reads in de novo assembly of A) tandem repeats and B) copy number variations. 
 
-Read accuracy may also be a potentially limiting factor to successful de novo assembly.  However, advancements in assemblers (e.g. hierarchical genome-assembly process (HGAP)) have allowed for the self-correction of reads, which makes highly contiguous assemblies possible. See the study by Loman et al. where a complete bacterial genome was assembled de novo with 99.5% nucleotide identity.
+Read accuracy may also be a potentially limiting factor to successful de novo assembly.  However, advancements in assemblers (e.g. hierarchical genome-assembly process (HGAP)) have allowed for the self-correction of reads, which makes highly contiguous assemblies possible. See the [study by Loman et al.](http://www.nature.com/nmeth/journal/v12/n8/full/nmeth.3444.html) where a complete bacterial genome was assembled de novo with 99.5% nucleotide identity.
 
 
