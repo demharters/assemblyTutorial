@@ -11,6 +11,33 @@ Software requirements:
 
 For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
 
+##### Explore your data
+Poretools can help you characterise your reads dataset.
+
+Plot the total yield of your run:
+```
+poretools yield_plot \
+          --plot-type reads \
+          --saveas reads_yield.pdf\
+          reads_folder/
+```
+*reads_folder/ should be replaced accordingly. To plot the total basepair count set --plot-type to "basepairs"*
+
+```
+poretools hist reads_folder/ --saveas readLength_hist1.pdf
+```
+
+You can modify four plot by changing the following options:
+```
+poretools hist --min-length 1000 --max-length 10000 reads_folder/ --saveas readLength_hist2.pdf
+poretools hist --num-bins 20 --max-length 10000 read_folder/ --saveas readLength_hist3.pdf
+```
+
+Look at the throughput of each of the pores:
+```
+poretools occupancy reads_folder/
+```
+
 ##### Step 1: Extract 2D reads as FASTA
 Metrichor returns each of the basecalled reads as individual fast5 files. Use poretools to extract the 2D reads from the fast5 folder and store them in a single fasta file with the following command:
 
@@ -40,6 +67,7 @@ Align the extracted 2d reads to the reference sequence with the following comman
 lastal -s 2 -T 0 -Q 0 -a 1 reference.lastindex 2Dreads.fasta > 2Dreads_aligned.maf
 ```
 ```
+*HELP*
 -s	0=reverse, 1=forward, 2=both
 -T	type of alignment: 0=local, 1=overlap
 -Q	input format: 0=fasta, 1=fastq
@@ -65,6 +93,7 @@ Compress .sam to .bam:
 samtools view -b -S -t reference.fasta.fai -o 2Dreads.bam 2Dreads.sam
 ```
 ```
+*HELP*
 -b	output BAM
 -S	input SAM
 -t	reference index file
