@@ -19,6 +19,8 @@ or
 man [programme]
 ```
 
+**In the following, "reads_folder" and "reference.fasta" need to be replaced by your respective read folder and reference file name**
+
 ## Explore your data
 Poretools can help you characterise your reads dataset.
 
