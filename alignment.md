@@ -11,7 +11,7 @@ Software requirements:
 
 For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
 
-##### Step 1: Extract 2D reads as FASTQ
+##### Step 1: Extract 2D reads as FASTA
 Metrichor returns each of the basecalled reads as individual fast5 files. Use poretools to extract the 2D reads from the fast5 folder and store them in a single fasta file with the following command:
 
 ```
