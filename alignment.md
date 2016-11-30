@@ -23,6 +23,7 @@ poretools yield_plot \
 ```
 *reads_folder/ should be replaced accordingly. To plot the total basepair count set --plot-type to "basepairs"*
 
+Plot the distribution of read lengths:
 ```
 poretools hist reads_folder/ --saveas readLength_hist1.pdf
 ```
