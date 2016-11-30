@@ -27,6 +27,7 @@ Create the index files required for sequence comparison and alignment by running
 lastdb -Q 0 reference.lastindex reference.fasta
 ```
 ```
+*HELP*
 -Q	input format: 0=fasta, 1=fastq
 ```
 
