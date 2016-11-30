@@ -55,7 +55,7 @@ https://poretools.readthedocs.io/en/latest/content/examples.html
 Metrichor returns each of the basecalled reads as individual fast5 files. Use poretools to extract the 2D reads from the fast5 folder and store them in a single fasta file with the following command:
 
 ```
-poretools fasta --type 2D fast5/ > 2Dreads.fasta
+poretools fasta --type 2D reads_folder/ > 2Dreads.fasta
 ```
 
 Note, that we could also have used the fastq format which includes the quality scores and may help with the alignment step. However, for simplicity we will use the fasta format.
@@ -91,7 +91,7 @@ lastal -s 2 -T 0 -Q 0 -a 1 reference.lastindex 2Dreads.fasta > 2Dreads_aligned.m
 Convert your alignment to the .sam format with maf-convert.py (part of the LAST package):
 
 ```
-maf-convert sam 2Dreads_aligned.maf > 2Dreads.sam
+maf-convert sam 2Dreads_aligned.maf > 2Dreads_aligned.sam
 ```
 
 Index your reference file:
@@ -103,7 +103,7 @@ samtools faidx reference.fasta
 Compress .sam to .bam:
 
 ```
-samtools view -b -S -t reference.fasta.fai -o 2Dreads.bam 2Dreads.sam
+samtools view -b -S -t reference.fasta.fai -o 2Dreads_aligned.bam 2Dreads_aligned.sam
 ```
 ```
 *HELP*
