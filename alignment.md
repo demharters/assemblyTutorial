@@ -9,8 +9,9 @@ Software requirements:
 - [samtools](http://www.htslib.org) (A suite of programs for interacting with HT sequencing data)
 - [Tablet](https://ics.hutton.ac.uk/tablet/) (Alignment/Assembly Viewer)
 
-For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
-https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md
+For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md) (https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
+
+You can find test data for this exercise [here](https://figshare.com/s/d8c757603d12d49ecaa0) (https://figshare.com/s/d8c757603d12d49ecaa0)
 
 To find out more about the options of a programme (poretools, samtools, lastdb etc.), type
 ```
