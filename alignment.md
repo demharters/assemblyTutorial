@@ -28,7 +28,7 @@ Plot the distribution of read lengths:
 poretools hist reads_folder/ --saveas readLength_hist1.pdf
 ```
 
-You can modify four plot by changing the following options:
+You can modify four plot by adding the following options:
 ```
 poretools hist --min-length 1000 --max-length 10000 reads_folder/ --saveas readLength_hist2.pdf
 poretools hist --num-bins 20 --max-length 10000 read_folder/ --saveas readLength_hist3.pdf
