@@ -11,7 +11,7 @@ Software requirements:
 
 For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
 
-#### Explore your data
+## Explore your data
 Poretools can help you characterise your reads dataset.
 
 Plot the total yield of your run:
@@ -39,7 +39,7 @@ Look at the throughput of each of the pores:
 poretools occupancy reads_folder/
 ```
 
-#### Genome Assembly
+## Genome Assembly
 ##### Step 1: Extract 2D reads as FASTA
 Metrichor returns each of the basecalled reads as individual fast5 files. Use poretools to extract the 2D reads from the fast5 folder and store them in a single fasta file with the following command:
 
