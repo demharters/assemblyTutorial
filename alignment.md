@@ -39,6 +39,9 @@ Look at the throughput of each of the pores:
 poretools occupancy reads_folder/
 ```
 
+For more commands see the [documentation](https://poretools.readthedocs.io/en/latest/content/examples.html).
+https://poretools.readthedocs.io/en/latest/content/examples.html
+
 ## Genome Assembly
 ##### Step 1: Extract 2D reads as FASTA
 Metrichor returns each of the basecalled reads as individual fast5 files. Use poretools to extract the 2D reads from the fast5 folder and store them in a single fasta file with the following command:
