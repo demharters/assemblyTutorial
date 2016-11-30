@@ -12,6 +12,13 @@ Software requirements:
 For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
 https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md
 
+To find out more about the options of a programme (poretools, samtools, lastdb etc.), type
+```
+[programme] --help
+or
+man [programme]
+```
+
 ## Explore your data
 Poretools can help you characterise your reads dataset.
 
@@ -115,12 +122,6 @@ samtools sort 2Dreads_aligned.bam 2Dreads_aligned.sorted
 Index the sorted to alignment (required to view the alignment in tablet)
 ```
 samtools index 2Dreads_aligned.sorted.bam
-```
-
-
-To find out more about the options of a programme (poretools, samtools, lastdb etc.), type
-```
-[programme] --help
 ```
 
 ##### Step 5: Alignment Visualisation
