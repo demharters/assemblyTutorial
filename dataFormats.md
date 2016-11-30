@@ -8,14 +8,14 @@ Once the sequencing run has finished, Metrichor will have returned all reads as 
 - SAM (Sequence Alignment/Map format): Header + Alignment
 - BAM: binary, compressed SAM data
 
-FAST5
+### FAST5
 
 Event parameter | Description
 --- |--- 
 mean | mean of raw samples which compose event (in pA)
 start | start time of event (in s)
 stdv | standard deviation of raw samples which compose event (in pA)
-length | length (in s)
+length (time) | length (in s)
 model_state | k-mer to which the event has been associated
 move | number of bases moved from previous event
 weights | a value from zero to one indicating how confident the basecaller is that the event is not a spurious or false positive event
