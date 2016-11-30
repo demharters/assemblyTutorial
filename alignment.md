@@ -10,6 +10,7 @@ Software requirements:
 - [Tablet](https://ics.hutton.ac.uk/tablet/) (Alignment/Assembly Viewer)
 
 For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
+https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md
 
 ## Explore your data
 Poretools can help you characterise your reads dataset.
