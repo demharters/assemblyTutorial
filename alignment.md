@@ -9,9 +9,9 @@ Software requirements:
 - [samtools](http://www.htslib.org) (A suite of programs for interacting with HT sequencing data)
 - [Tablet](https://ics.hutton.ac.uk/tablet/) (Alignment/Assembly Viewer)
 
-For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md) (https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
+For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
 
-You can find test data for this exercise [here](https://figshare.com/s/d8c757603d12d49ecaa0) (https://figshare.com/s/d8c757603d12d49ecaa0)
+You can find test data for this exercise [here](https://figshare.com/s/d8c757603d12d49ecaa0).
 
 To find out more about the options of a programme (poretools, samtools, lastdb etc.), type
 ```
@@ -54,7 +54,6 @@ poretools occupancy reads_folder/
 ```
 
 For more commands see the [documentation](https://poretools.readthedocs.io/en/latest/content/examples.html).
-https://poretools.readthedocs.io/en/latest/content/examples.html
 
 ## Genome Assembly
 ##### Step 1: Extract 2D reads as FASTA
@@ -142,5 +141,3 @@ samtools index 2Dreads_aligned.sorted.bam
 
 ![Tablet alignment](https://github.com/demharters/assemblyTutorial/blob/master/figures/tablet.png)
 **Figure 1** An alignment of Nanopore reads of E.coli as viewed in Tablet.
-
-For assessing your assembly see [QUAST](http://bioinf.spbau.ru/quast).
