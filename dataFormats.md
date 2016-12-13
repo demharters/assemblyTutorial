@@ -5,6 +5,7 @@ Once the sequencing run has finished, Metrichor will have returned all reads as 
 - fast5: Oxford Nanopore’s own version of the HDF5 format (hierarchical data format) used to store nanopore data.
 - FASTA: Header + Sequence
 - FASTQ: Header + Sequence + Quality score
+- MAF (Mutation Annotation Format)
 - SAM (Sequence Alignment/Map format): Header + Alignment
 - BAM: binary, compressed SAM data
 
