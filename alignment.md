@@ -20,8 +20,6 @@ or
 man [programme]
 ```
 
-For test data, see [here]().
-
 ### Note
 **In the following, "reads_folder" and "reference.fasta" need to be replaced by your respective read folder and reference file name**
 
