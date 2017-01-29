@@ -10,7 +10,6 @@ Software requirements:
 - [Tablet](https://ics.hutton.ac.uk/tablet/) (Alignment/Assembly Viewer)
 
 For a short descripton of file formats see [here](https://github.com/demharters/assemblyTutorial/blob/master/dataFormats.md).
-
 You can find test data for this exercise [here](https://figshare.com/s/d8c757603d12d49ecaa0).
 
 To find out more about the options of a programme (poretools, samtools, lastdb etc.), type
